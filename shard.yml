@@ -1,0 +1,13 @@
+name: gl_generator
+version: 0.1.0
+
+authors:
+  - Max Berends <max@maxberends.nl>
+
+targets:
+  gl_generator:
+    main: src/gl_generator.cr
+
+crystal: 0.20.5
+
+license: MIT

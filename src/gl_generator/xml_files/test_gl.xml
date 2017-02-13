@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry>
+  <types>
+    <type name="stddef"><![CDATA[#include <stddef.h>]]></type>
+    <type requires="stddef">typedef ptrdiff_t <name>GLintptr</name>;</type>v
+    <type>typedef unsigned int <name>GLuint</name>;</type>
+    <type>typedef char <name>GLchar</name>;</type>
+    <type>typedef unsigned int <name>GLenum</name>;</type>
+  </types>
+  <commands>
+    <command>
+      <proto>void <name>glBeginConditionalRenderNV</name></proto>
+      <param><ptype>GLuint</ptype> <name>id</name></param>
+      <param><ptype>GLenum</ptype> <name>mode</name></param>
+      <param>const <ptype>GLchar</ptype> *<name>name</name></param>
+      <param len="size">const void *<name>data</name></param>
+      <alias name="glBeginConditionalRender" />
+      <glx type="render" opcode="348" />
+    </command>
+  </commands>
+  <feature api="gl" name="GL_VERSION_3_0" number="3.0">
+    <require>
+      <enum name="GL_COMPARE_REF_TO_TEXTURE" />
+      <enum name="GL_CLIP_DISTANCE0" />
+      <command name="glEndTransformFeedback" />
+      <command name="glBeginConditionalRenderNV" />
+    </require>
+    <require profile="compatibility">
+      <enum name="GL_INDEX" />
+    </require>
+  </feature>
+</registry>
