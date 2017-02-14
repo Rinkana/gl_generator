@@ -1,4 +1,5 @@
 # gl_generator
+[![Build Status](https://travis-ci.org/Rinkana/gl_generator.svg?branch=master)](https://travis-ci.org/Rinkana/gl_generator)
 
 Convert the by khronos provided XML files to useable Crystal libs.
 Only `gl.xml` is supported for now.
@@ -22,4 +23,4 @@ Only `gl.xml` is supported for now.
 
 ## Contributors
 
-- [Rinkana](https://github.com/Rinkana) Rinkana - creator, maintainer
+- [Rinkana](https://github.com/Rinkana) Max Berends - creator, maintainer
