@@ -1,5 +1,5 @@
 # gl_generator
-[![Build Status](https://travis-ci.org/Rinkana/gl_generator.svg?branch=master)](https://travis-ci.org/Rinkana/gl_generator)
+[![Build Status](https://travis-ci.org/lirith-engline/gl_generator.svg?branch=master)](https://travis-ci.org/lirith-engline/gl_generator)
 
 Convert the by khronos provided XML files to useable Crystal libs.
 Only `gl.xml` is supported for now.
@@ -15,7 +15,7 @@ Only `gl.xml` is supported for now.
 
 ## Contributing
 
-1. Fork it ( https://github.com/Rinkana/gl_generator/fork )
+1. Fork it ( https://github.com/lirith-engline/gl_generator/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)

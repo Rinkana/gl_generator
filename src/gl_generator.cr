@@ -2,7 +2,7 @@ require "xml"
 require "./gl_generator/*"
 
 
-module GlGenerator
+module GLGenerator
   # TODO Merge code to module
 end
 
